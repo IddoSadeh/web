@@ -1,50 +1,25 @@
 
-TITLE: 
-Architect - 100% Fully Responsive Free HTML5 Bootstrap Template
-
-AUTHOR:
-DESIGNED & DEVELOPED by FreeHTML5.co
-
-Website: http://freehtml5.co/
-Twitter: http://twitter.com/fh5co
-Facebook: http://facebook.com/fh5co
 
 
-CREDITS:
+00. Reference templates:
 
-Bootstrap
-http://getbootstrap.com/
+Home: architect.zip
+Work: riddle.zip
+Project_Page: https://k-yr-k.com/Neuro-Nav
 
-jQuery
-http://jquery.com/
+Overall: www.muqingbai.com
 
-jQuery Easing
-http://gsgd.co.uk/sandbox/jquery/easing/
 
-Modernizr
-http://modernizr.com/
 
-Google Fonts
-https://www.google.com/fonts/
+01. To debug:
 
-Icomoon
-https://icomoon.io/app/
+Home_page:
+	/Users/muqingbai/Documents/Job Apps/personal_website/reference_templates/Screenshot 2023-10-03 at 00.41.18.png
 
-Respond JS
-https://github.com/scottjehl/Respond/blob/master/LICENSE-MIT
+Work_page:
+	/Users/muqingbai/Documents/Job Apps/personal_website/reference_templates/Screenshot 2023-10-03 at 00.47.35.png
 
-animate.css
-http://daneden.me/animate
+Project_page:
+	/Users/muqingbai/Documents/Job Apps/personal_website/reference_templates/Screenshot 2023-10-03 at 00.52.20.png
 
-jQuery Waypoint
-https://github.com/imakewebthings/waypoints/blog/master/licenses.txt
-
-Flexslider
-http://flexslider.woothemes.com/
-
-Sticky Kit
-http://leafo.net/sticky-kit/
-
-Demo Images:
-http://unsplash.com
 
