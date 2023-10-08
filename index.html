@@ -1,6 +1,7 @@
 <!DOCTYPE HTML>
 <html>
-	<head>
+
+<head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -8,22 +9,12 @@
 	<meta name="keywords" content="MUQING BAI" />
 	<meta name="author" content="MUQING BAI" />
 
-	<!-- Favicon -->   
-	<link href="images/favicon.png" rel="favicon.png"/>
-
-  	<!-- Facebook and Twitter integration -->
-	<!-- <meta property="og:title" content=""/>
-	<meta property="og:image" content=""/>
-	<meta property="og:url" content=""/>
-	<meta property="og:site_name" content=""/>
-	<meta property="og:description" content=""/>
-	<meta name="twitter:title" content="" />
-	<meta name="twitter:image" content="" />
-	<meta name="twitter:url" content="" />
-	<meta name="twitter:card" content="" /> -->
+	<title>MUQING BAI</title>
+	<!-- Favicon -->
+	<link href="images/favicon.png" rel="favicon.png" />
 
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans|Playfair+Display" rel="stylesheet">
-	
+
 	<!-- Animate.css -->
 	<link rel="stylesheet" href="css/animate.css">
 	<!-- Icomoon Icon Fonts-->
@@ -44,12 +35,13 @@
 	<script src="js/respond.min.js"></script>
 	<![endif]-->
 
-	</head>
-	<body>
-		
+</head>
+
+<body>
+
 	<div class="fh5co-loader"></div>
-	
-	<div id="page">
+
+	<header>
 		<nav class="fh5co-nav" role="navigation">
 			<div class="container">
 				<div class="top-menu">
@@ -59,24 +51,33 @@
 						</div>
 						<div class="col-sm-10 text-right menu-1">
 							<ul>
-								<!-- <li class="active"><a href="index.html">Featured</a></li> -->
-								<!-- <li><a href="single.html">Work</a></li> -->
-								<li class="has-dropdown"><a href="single.html">WORK</a>
-									<!-- <ul class="dropdown">
-										<li><a href="#">HCI</a></li>
-										<li><a href="#">Climate Tech </a></li>
-										<li><a href="#">Design Fabrication</a></li>
-										<li><a href="#">Design Research</a></li>
-									</ul> -->
-								</li>
+								<li><a href="single.html">WORK</a></li>
 								<li><a href="https://docsend.com/view/vqt4waygd5uvzd7r" target="_blank">CV</a></li>
 							</ul>
 						</div>
 					</div>
-					
+
 				</div>
 			</div>
 		</nav>
+	</header>
+
+	<style>
+		header {
+			position: fixed;
+			width: 100%;
+			top: 0;
+			/* Adjust background color as needed */
+			z-index: 1000;
+			/* Make sure the header is above other content */
+		}
+
+		/* Add some padding to the body to make space for the fixed header */
+		body {
+			padding-top: 150px;
+			/* Adjust the value to match your header's height */
+		}
+	</style>
 
 	<div class="container">
 		<div id="fh5co-portfolio">
@@ -86,7 +87,7 @@
 						<div class="row">
 							<div class="col-md-14 animate-box">
 								<a href="p_bac_med.html" class="portfolio-grid">
-									<div class = "image-container">
+									<div class="image-container">
 										<img src="images/home_page/ecoli.gif" alt="colored image">
 									</div>
 									<div class="desc">
@@ -99,206 +100,234 @@
 					</div>
 
 
-		<div id="fh5co-portfolio">
-			<div class="row nopadding">
-				<div class="row nopadding">
-					<div class="col-md-6 padding-right">
-						<div class="row">
-							<div class="col-md-12 animate-box">
-								<a href="single.html" class="portfolio-grid">
-									<div class = "image-container">
-										<img src="images/home_page/dietio.gif" alt="colored image">
-									</div>
-									<div class="desc">
-										<h3>Diet I/O</h3>
-										<span>Harvard Graduate School of Design</span>
-									</div>
-								</a>
-							</div>
-						</div>
-					</div>
-				
-					<div class="col-md-6 padding-left">
-						<div class="row">
-							<div class="col-md-12 animate-box">
-								<a href="single.html" class="portfolio-grid">
-									<div class = "image-container">
-										<img src="images/home_page/my_sen.jpeg" alt="colored image">
-									</div>
-									<div class="desc">
-										<h3>Responsive Biosensing</h3>
-										<span>MIT Media Lab</span>
-									</div>
-								</a>
-							</div>
-						</div>
-					</div>
-				</div>
-				
-				<div id="fh5co-portfolio">
-					<div class="row nopadding">
+					<div id="fh5co-portfolio">
 						<div class="row nopadding">
-							<div class="col-md-12 padding-center">
-								<div class="row">
-									<div class="col-md-14 animate-box">
-										<a href="single.html" class="portfolio-grid">
-											<div class = "image-container">
-												<img src="images/home_page/imm_sou.png" alt="colored image">
-											</div>
-											<div class="desc">
-												<h3>Immersive Soundscape</h3>
-												<span>Harvard Graduate School of Design</span>
-											</div>
-										</a>
-									</div>
-								</div>
-							</div>
-							
-				
-				<div id="fh5co-portfolio">
-					<div class="row nopadding">
-						<div class="row nopadding">
-							<div class="col-md-6 padding-right">
-								<div class="row">
-									<div class="col-md-12 animate-box">
-										<a href="single.html" class="portfolio-grid">
-											<div class = "image-container">
-												<img src="images/home_page/cy_comm.png" alt="colored image">
-											</div>
-											<div class="desc">
-												<h3>Cybernetic Communications</h3>
-												<span>Harvard Graduate School of Design</span>
-											</div>
-										</a>
-									</div>
-								</div>
-							</div>
-						
-							<div class="col-md-6 padding-left">
-								<div class="row">
-									<div class="col-md-12 animate-box">
-										<a href="single.html" class="portfolio-grid">
-											<div class = "image-container">
-												<img src="images/home_page/micr_flu.gif" width="100%" height="auto" alt="colored image">
-											</div>
-											<div class="desc">
-												<h3>Microfluidic Structures for Public Thermoregulations</h3>
-												<span>Harvard Graduate School of Design</span>
-											</div>
-										</a>
-									</div>
-								</div>
-							</div>
-						</div>
-						
-						<div id="fh5co-portfolio">
 							<div class="row nopadding">
-								<div class="row nopadding">
-									<div class="col-md-12 padding-center">
-										<div class="row">
-											<div class="col-md-14 animate-box">
-												<a href="p_carb_cap.html" class="portfolio-grid">
-													<div class = "image-container">
-														<img src="images/home_page/carb_cap.png" alt="colored image">
-														
-													</div>
-													<div class="desc">
-														<h3>Personal Carbon Capture Device</h3>
-														<span>Harvard Graduate School of Design</span>
-													</div>
-												</a>
-											</div>
-										</div>
-									</div>
-
-						<div id="fh5co-portfolio">
-							<div class="row nopadding">
-								<div class="row nopadding">
-									<div class="col-md-6 padding-right">
-										<div class="row">
-											<div class="col-md-12 animate-box">
-												<a href="single.html" class="portfolio-grid">
-													<div class = "image-container">
-														<img src="images/home_page/dep_par.gif" alt="colored image">
-													</div>
-													<div class="desc">
-														<h3>Transformative Envelopes</h3>
-														<span>Architectural Association</span>
-													</div>
-												</a>
-											</div>
-										</div>
-									</div>
-
-									<div class="col-md-6 padding-left">
-										<div class="row">
-											<div class="col-md-12 animate-box">
-												<a href="single.html" class="portfolio-grid">
-													<div class = "image-container">
-														<img src="images/home_page/b_sub.jpeg" alt="colored image">
-													</div>
-													<div class="desc">
-														<h3>Bacterial Batteries</h3>
-														<span>MIT Media Lab</span>
-													</div>
-												</a>
-											</div>
+								<div class="col-md-6 padding-right">
+									<div class="row">
+										<div class="col-md-12 animate-box">
+											<a href="single.html" class="portfolio-grid">
+												<div class="image-container">
+													<img src="images/home_page/dietio.gif" alt="colored image">
+												</div>
+												<div class="desc">
+													<h3>Diet I/O</h3>
+													<span>Harvard Graduate School of Design</span>
+												</div>
+											</a>
 										</div>
 									</div>
 								</div>
-								
-						<div id="fh5co-portfolio">
-							<div class="row nopadding">
-								<div class="row nopadding">
-									<div class="col-md-12 padding-center">
-										<div class="row">
-											<div class="col-md-14 animate-box">
-												<a href="single.html" class="portfolio-grid">
-													<div class = "image-container">
-														<img src="images/home_page/plas_har.gif" alt="colored image">
-													</div>
-													<div class="desc">
-														<h3>Plastic Harvesters 2035</h3>
-														<span>Architectural Association</span>
-													</div>
-												</a>
-											</div>
+
+								<div class="col-md-6 padding-left">
+									<div class="row">
+										<div class="col-md-12 animate-box">
+											<a href="single.html" class="portfolio-grid">
+												<div class="image-container">
+													<img src="images/home_page/my_sen.jpeg" alt="colored image">
+												</div>
+												<div class="desc">
+													<h3>Responsive Biosensing</h3>
+													<span>MIT Media Lab</span>
+												</div>
+											</a>
 										</div>
 									</div>
 								</div>
 							</div>
-	</div>
-	<!-- END container -->
-		<footer>
-			<div class="row copyright">
-				<div class="col-md-12 text-center">
-					<p>
-						<small class="block">&copy; 2023 Muqing Bai. All rights reserved.
-						</small> 
-					</p>
-				</div>
-			</div>
-		</footer>
-	
-	<div class="gototop js-top">
-		<a href="#" class="js-gotop"><i class="icon-arrow-up2"></i></a>
-	</div>
-	
-	<!-- jQuery -->
-	<script src="js/jquery.min.js"></script>
-	<!-- jQuery Easing -->
-	<script src="js/jquery.easing.1.3.js"></script>
-	<!-- Bootstrap -->
-	<script src="js/bootstrap.min.js"></script>
-	<!-- Waypoints -->
-	<script src="js/jquery.waypoints.min.js"></script>
-	<!-- Flexslider -->
-	<script src="js/jquery.flexslider-min.js"></script>
-	<!-- Sticky Kit -->
-	<script src="js/sticky-kit.min.js"></script>
-	<!-- Main -->
-	<script src="js/main.js"></script>
 
-	</body>
+							<div id="fh5co-portfolio">
+								<div class="row nopadding">
+									<div class="row nopadding">
+										<div class="col-md-12 padding-center">
+											<div class="row">
+												<div class="col-md-14 animate-box">
+													<a href="single.html" class="portfolio-grid">
+														<div class="image-container">
+															<img src="images/home_page/imm_sou.png" alt="colored image">
+														</div>
+														<div class="desc">
+															<h3>Immersive Soundscape</h3>
+															<span>Harvard Graduate School of Design</span>
+														</div>
+													</a>
+												</div>
+											</div>
+										</div>
+
+
+										<div id="fh5co-portfolio">
+											<div class="row nopadding">
+												<div class="row nopadding">
+													<div class="col-md-6 padding-right">
+														<div class="row">
+															<div class="col-md-12 animate-box">
+																<a href="single.html" class="portfolio-grid">
+																	<div class="image-container">
+																		<img src="images/home_page/cy_comm.png"
+																			alt="colored image">
+																	</div>
+																	<div class="desc">
+																		<h3>Cybernetic Communications</h3>
+																		<span>Harvard Graduate School of
+																			Design</span>
+																	</div>
+																</a>
+															</div>
+														</div>
+													</div>
+
+													<div class="col-md-6 padding-left">
+														<div class="row">
+															<div class="col-md-12 animate-box">
+																<a href="single.html" class="portfolio-grid">
+																	<div class="image-container">
+																		<img src="images/home_page/micr_flu.gif"
+																			width="100%" height="auto"
+																			alt="colored image">
+																	</div>
+																	<div class="desc">
+																		<h3>Microfluidic Structures for Public
+																			Thermoregulations</h3>
+																		<span>Harvard Graduate School of
+																			Design</span>
+																	</div>
+																</a>
+															</div>
+														</div>
+													</div>
+												</div>
+
+												<div id="fh5co-portfolio">
+													<div class="row nopadding">
+														<div class="row nopadding">
+															<div class="col-md-12 padding-center">
+																<div class="row">
+																	<div class="col-md-14 animate-box">
+																		<a href="p_carb_cap.html"
+																			class="portfolio-grid">
+																			<div class="image-container">
+																				<img src="images/home_page/carb_cap.png"
+																					alt="colored image">
+
+																			</div>
+																			<div class="desc">
+																				<h3>Personal Carbon Capture Device
+																				</h3>
+																				<span>Harvard Graduate School of
+																					Design</span>
+																			</div>
+																		</a>
+																	</div>
+																</div>
+															</div>
+
+															<div id="fh5co-portfolio">
+																<div class="row nopadding">
+																	<div class="row nopadding">
+																		<div class="col-md-6 padding-right">
+																			<div class="row">
+																				<div class="col-md-12 animate-box">
+																					<a href="single.html"
+																						class="portfolio-grid">
+																						<div class="image-container">
+																							<img src="images/home_page/dep_par.gif"
+																								alt="colored image">
+																						</div>
+																						<div class="desc">
+																							<h3>Transformative
+																								Envelopes</h3>
+																							<span>Architectural
+																								Association</span>
+																						</div>
+																					</a>
+																				</div>
+																			</div>
+																		</div>
+
+																		<div class="col-md-6 padding-left">
+																			<div class="row">
+																				<div class="col-md-12 animate-box">
+																					<a href="single.html"
+																						class="portfolio-grid">
+																						<div class="image-container">
+																							<img src="images/home_page/b_sub.jpeg"
+																								alt="colored image">
+																						</div>
+																						<div class="desc">
+																							<h3>Bacterial Batteries
+																							</h3>
+																							<span>MIT Media
+																								Lab</span>
+																						</div>
+																					</a>
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+
+																	<div id="fh5co-portfolio">
+																		<div class="row nopadding">
+																			<div class="row nopadding">
+																				<div class="col-md-12 padding-center">
+																					<div class="row">
+																						<div
+																							class="col-md-14 animate-box">
+																							<a href="single.html"
+																								class="portfolio-grid">
+																								<div
+																									class="image-container">
+																									<img src="images/home_page/plas_har.gif"
+																										alt="colored image">
+																								</div>
+																								<div class="desc">
+																									<h3>Plastic
+																										Harvesters
+																										2035</h3>
+																									<span>Architectural
+																										Association</span>
+																								</div>
+																							</a>
+																						</div>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																	<!-- END container -->
+																	<footer>
+																		<div class="row copyright">
+																			<div class="col-md-12 text-center">
+																				<p>
+																					<small class="block">&copy; 2023
+																						Muqing Bai. All rights
+																						reserved.
+																					</small>
+																				</p>
+																			</div>
+																		</div>
+																	</footer>
+
+																	<div class="gototop js-top">
+																		<a href="#" class="js-gotop"><i
+																				class="icon-arrow-up2"></i></a>
+																	</div>
+
+																	<!-- jQuery -->
+																	<script src="js/jquery.min.js"></script>
+																	<!-- jQuery Easing -->
+																	<script src="js/jquery.easing.1.3.js"></script>
+																	<!-- Bootstrap -->
+																	<script src="js/bootstrap.min.js"></script>
+																	<!-- Waypoints -->
+																	<script src="js/jquery.waypoints.min.js"></script>
+																	<!-- Flexslider -->
+																	<script src="js/jquery.flexslider-min.js"></script>
+																	<!-- Sticky Kit -->
+																	<script src="js/sticky-kit.min.js"></script>
+																	<!-- Main -->
+																	<script src="js/main.js"></script>
+
+</body>
+
 </html>
-

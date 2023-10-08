@@ -11,7 +11,7 @@
 *
 * ======================================================= */
 body {
-  font-family: "px grotesk", arial, sans-serif;
+  font-family: "px grotesk";
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
@@ -77,13 +77,13 @@ body:after {
 }
 
 a {
-  color: #F95959;
+  color: #a3a3a3;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
 }
 a:hover, a:active, a:focus {
-  color: #F95959;
+  color: #a3a3a3;
   outline: none;
   text-decoration: none;
 }
@@ -142,6 +142,9 @@ h1, h2, h3, h4, h5, h6, figure {
   padding: 0;
   font-weight: 400;
   font-family:"px grotesk", "black"; 
+  background-color: rgba(255, 255, 255, 0.6);;
+  display: inline-block; /* Ensures the background color covers the entire element */
+  padding: 15px 15px; /* Add padding to create space around the text */
 }
 .fh5co-nav #fh5co-logo a {
   margin-bottom: 0;
@@ -149,10 +152,31 @@ h1, h2, h3, h4, h5, h6, figure {
   color: #000;
   display: block;
   line-height: 32px;
+  position: relative; /* Add relative positioning */
+  z-index: 1; /* Ensure the logo is on top of other elements */
 }
 .fh5co-nav #fh5co-logo a span {
   color: #000000;
 }
+
+/* Add a pseudo-element to create a transparent layer for hover effect */
+.fh5co-nav #fh5co-logo a::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  z-index: -1; /* Place it behind the link text */
+}
+
+/* Change background color on hover */
+.fh5co-nav #fh5co-logo a:hover::after {
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+
 @media screen and (max-width: 768px) {
   .fh5co-nav .menu-1 {
     display: none;
@@ -160,7 +184,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 .fh5co-nav ul {
   padding: 0;
-  margin: 1em 0 0 0;
+  margin: 0em 0 0 0;
 }
 .fh5co-nav ul li {
   font-family: "px grotesk", arial, sans-serif;
@@ -176,7 +200,15 @@ h1, h2, h3, h4, h5, h6, figure {
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
-  color: #999999;
+  color: #000000;
+  background-color: rgba(255, 255, 255, 0.6);;
+  display: inline-block; /* Ensures the background color covers the entire element */
+  padding: 2px 5px; /* Add padding to create space around the text */
+}
+
+.fh5co-nav ul li a:hover {
+  color: rgb(213, 213, 213); /* Change text color on hover */
+  background-color: rgba(255, 255, 255, 0.6);; /* Change background color on hover */
 }
 
 .fh5co-nav ul li.btn-cta a {
@@ -1141,6 +1173,7 @@ input[type="text"] {
 .js .animate-box {
   opacity: 0;
   
+  
 }
 
 .image-item {
@@ -1522,7 +1555,7 @@ img .work-img {
 .two-column-layout {
   display: flex;
   justify-content: space-between;
-  gap: 20px; /* Adjust the gap as needed */
+  /* gap: 20px;  */
 }
 
 .left-column {
@@ -1532,6 +1565,7 @@ img .work-img {
 
 .right-column {
   width: 70%; /* Adjust the width as needed */
+  margin: 10px;
   padding: 20px;
 }
 
@@ -1540,7 +1574,7 @@ img .work-img {
   .two-column-layout {
     flex-direction: column;
   }
-
+/* ipad iphone  */
   /* .left-column,
   .right-column {
     width: 100%;
@@ -1613,10 +1647,3 @@ body, h1, h2, h3, p, ul {
   width: 100%;
   height: 100%;
 }
-
-
-
-
-
-
-

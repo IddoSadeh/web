@@ -1,5 +1,5 @@
 const filterContainer = document.querySelector(".work-filter");
-workItems = document.querySelectorAll(".work-item");
+workItems = document.querySelectorAll(".gallery-item");
 
 filterContainer.addEventListener("click", (event) => {
 	if(event.target.classList.contains("filter-item")) {
