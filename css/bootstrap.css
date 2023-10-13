@@ -867,9 +867,12 @@ pre code {
 .container {
   margin-right: auto;
   margin-left: auto;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+  /* border: rgb(11, 138, 133) 4px solid; */
+
 }
+
 .container:before, .container:after {
   content: " ";
   display: table;

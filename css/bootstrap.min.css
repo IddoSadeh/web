@@ -503,6 +503,8 @@ pre code {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+  border: rgb(156, 0, 0) 4px solid;
+
 }
 @media (min-width: 576px) {
   .container {
