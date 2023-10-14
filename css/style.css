@@ -21,18 +21,6 @@ body {
   /* START white border*/
   border-left: 20px solid #fff;
 }
-  /* @media screen and (max-width: 768px) {
-    body:before, body:after {
-      display: none;
-    }
-  }
-
-  body:before {
-    top: 0;
-  }
-  body:after {
-    bottom: 0;
-  } */
   @media screen and (max-width: 768px) {
     body {
       border-left: none;
@@ -140,7 +128,7 @@ body {
     margin: 0;
     padding: 0;
     font-weight: 400;
-    font-family: "px grotesk", "black";
+    font-family: "Montserrat", "sans-serif";
     background-color: rgba(255, 255, 255, 0.6);
     display: inline-block;
     padding: 10px 10px;
@@ -195,7 +183,7 @@ body {
   }
   
   .fh5co-nav ul li {
-    font-family: "px grotesk", arial, sans-serif;
+    font-family: "Montserrat", sans-serif;
     padding: 0;
     margin: 0;
     list-style: none;
@@ -484,7 +472,7 @@ body {
   margin-bottom: 10px;
   margin-top: 10px;
   color: rgba(255, 255, 255, 0.8);
-  font-family: "Open Sans", arial, sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 #fh5co-hero .flexslider .slider-text > .slider-text-inner h2 a {
@@ -517,7 +505,7 @@ body {
 }
 
 #fh5co-intro h2 span {
-  font-family: "Open Sans", arial, sans-serif !important;
+  font-family: "Montserrat", sans-serif !important;
   font-size: 16px;
 }
 
@@ -697,7 +685,7 @@ h1, h2, h3, h4, h5, h6, figure {
   margin: 0;
   padding: 0;
   font-weight: 400;
-  font-family: "px grotesk", "black";
+  font-family: "Montserrat", "black";
   background-color: rgba(255, 255, 255, 0.6);
   display: inline-block;
   padding: 10px;
@@ -1115,7 +1103,7 @@ h1, h2, h3, h4, h5, h6, figure {
 
 /* Button styles */
 .form-group .btn-modify {
-  font-family: "Playfair Display", serif;
+  font-family: "Montserrat", serif;
   text-transform: uppercase;
   letter-spacing: 1px;
   font-weight: 700;
@@ -1488,13 +1476,6 @@ h1, h2, h3, h4, h5, h6, figure {
     margin: 0 0 20px 0;
   }
   
-  /* h4 {
-    color:#000;
-    font-family:"px grotesk", oblique;
-    font-weight: 400;
-    margin: 0 0 20px 0;
-  } */
-  
   ::-webkit-selection {
     color: #fff;
     background: #F95959;
@@ -1548,7 +1529,7 @@ h1, h2, h3, h4, h5, h6, figure {
     margin: 0;
     padding: 0;
     font-weight: 400;
-    font-family:"px grotesk", "black"; 
+    font-family:"Montserrat"; 
     background-color: rgba(255, 255, 255, 0.6);;
     display: inline-block; /* Ensures the background color covers the entire element */
     padding: 10px 10px; /* Add padding to create space around the text */
@@ -1595,7 +1576,7 @@ h1, h2, h3, h4, h5, h6, figure {
     margin: 0em 0 0 0;
   }
   .fh5co-nav ul li {
-    font-family: "px grotesk", arial, sans-serif;
+    font-family: "Montserrat", sans-serif;
     padding: 0;
     margin: 0;
     list-style: none;
@@ -1849,7 +1830,7 @@ h1, h2, h3, h4, h5, h6, figure {
     margin-bottom: 10px;
     margin-top: 10px;
     color: rgba(255, 255, 255, 0.8);
-    font-family: "Open Sans", arial, sans-serif;
+    font-family: "Montserrat", sans-serif;
   }
   #fh5co-hero .flexslider .slider-text > .slider-text-inner h2 a {
     color: rgba(255, 255, 255, 0.8);
@@ -1878,7 +1859,7 @@ h1, h2, h3, h4, h5, h6, figure {
     line-height: 44px;
   }
   #fh5co-intro h2 span {
-    font-family: "Open Sans", arial, sans-serif !important;
+    font-family: "Montserrat", sans-serif !important;
     font-size: 16px;
   }
   #fh5co-intro h2 span em {
@@ -2039,7 +2020,7 @@ h1, h2, h3, h4, h5, h6, figure {
     margin-bottom: 30px;
   }
   .form-group .btn-modify {
-    font-family: "Playfair Display", serif;
+    font-family: "Montserrat", sans-serif;
     text-transform: uppercase;
     letter-spacing: 1px;
     font-weight: 700;
@@ -2084,7 +2065,7 @@ h1, h2, h3, h4, h5, h6, figure {
     margin-bottom: 20px;
     line-height: 1.5;
     font-weight: 700;
-    font-family: "Playfair Display", serif;
+    font-family: "Montserrat", sans-serif;
     letter-spacing: 1px;
     text-transform: uppercase;
     color: #000;
@@ -2195,7 +2176,7 @@ h1, h2, h3, h4, h5, h6, figure {
   #fh5co-offcanvas ul li.offcanvas-has-dropdown > a:after {
     position: absolute;
     right: 0px;
-    font-family: 'icomoon';
+    font-family: 'Montserrat';
     speak: none;
     font-style: normal;
     font-weight: normal;
@@ -2420,7 +2401,7 @@ h1, h2, h3, h4, h5, h6, figure {
   margin: 0;
   padding: 0;
   font-weight: 400;
-  font-family:"px grotesk", "black"; 
+  font-family:"Montserrat", "bold"; 
   background-color: rgba(255, 255, 255, 0.6);;
   display: inline-block; /* Ensures the background color covers the entire element */
   padding: 10px 10px; /* Add padding to create space around the text */
@@ -2467,7 +2448,7 @@ h1, h2, h3, h4, h5, h6, figure {
   margin: 0em 0 0 0;
 }
 .fh5co-nav ul li {
-  font-family: "px grotesk", arial, sans-serif;
+  font-family: "Montserrat", sans-serif;
   padding: 0;
   margin: 0;
   list-style: none;
@@ -2721,7 +2702,7 @@ h1, h2, h3, h4, h5, h6, figure {
   margin-bottom: 10px;
   margin-top: 10px;
   color: rgba(255, 255, 255, 0.8);
-  font-family: "Open Sans", arial, sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 #fh5co-hero .flexslider .slider-text > .slider-text-inner h2 a {
   color: rgba(255, 255, 255, 0.8);
@@ -2750,7 +2731,7 @@ h1, h2, h3, h4, h5, h6, figure {
   line-height: 44px;
 }
 #fh5co-intro h2 span {
-  font-family: "Open Sans", arial, sans-serif !important;
+  font-family: "Montserrat", sans-serif !important;
   font-size: 16px;
 }
 #fh5co-intro h2 span em {
@@ -2911,7 +2892,7 @@ input[type="text"] {
   margin-bottom: 30px;
 }
 .form-group .btn-modify {
-  font-family: "Playfair Display", serif;
+  font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
   letter-spacing: 1px;
   font-weight: 700;
@@ -2956,7 +2937,7 @@ input[type="text"] {
   margin-bottom: 20px;
   line-height: 1.5;
   font-weight: 700;
-  font-family: "Playfair Display", serif;
+  font-family: "Montserrat", sans-serif;
   letter-spacing: 1px;
   text-transform: uppercase;
   color: #000;
@@ -3067,7 +3048,7 @@ input[type="text"] {
 #fh5co-offcanvas ul li.offcanvas-has-dropdown > a:after {
   position: absolute;
   right: 0px;
-  font-family: 'icomoon';
+  font-family: 'Montserrat';
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -3238,7 +3219,7 @@ input[type="text"] {
 .btn {
   margin-right: 4px;
   margin-bottom: 4px;
-  font-family: "Open Sans", arial, sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 16px;
   font-weight: 400;
   -webkit-border-radius: 1px;
@@ -4151,8 +4132,10 @@ h4.title {
   height: 100%;
 }
 
+/* body font!! */
+
 * {box-sizing: border-box}
-body {font-family: Verdana, sans-serif; margin:0}
+body {font-family: Montserrat, sans-serif; margin:0}
 /* .mySlides {display: none} */
 img {vertical-align: middle;}
 
