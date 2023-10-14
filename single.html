@@ -117,12 +117,11 @@
 														<div class="col-lg-4 item HCI figma">
 															<div class="gallery-item">
 																<div class="project-head">
-																	<a href="">
 																		<img src="images/work_16:9/Pla_hol.png" alt=""
 																			class="img-fluid card-img">
 																		<div class="project-hover">
 																			<h3>
-																				Helping Transgenders Find Their Voice
+																				"Work In Progress"
 																			</h3>
 																		</div>
 																</div>
@@ -245,32 +244,6 @@
 														<div class="col-lg-4 item C-T">
 															<div class="gallery-item">
 																<div class="project-head" class="img-fluid card-img">
-																	<a href="p_res_bio.html">
-																		<img src="images/work_16:9/my_sen.png" alt=""
-																			class="img-fluid card-img">
-																		<div class="project-hover">
-																			<h3>
-																				Understanding fungal languages through
-																				protein expressions
-																			</h3>
-																		</div>
-																</div>
-
-																<div class="project-body text-center">
-																	<h3 class="title">Responsive Biosensing</h3>
-
-																	<ul class="filters filters-tag text-center">
-																		<li data-filter=".c#">C#</a></li>
-																		<li data-filter=".arduino"><a
-																				href="#!">ARDUINO</a></li>
-																	</ul>
-																</div>
-															</div>
-														</div>
-
-														<div class="col-lg-4 item C-T">
-															<div class="gallery-item">
-																<div class="project-head" class="img-fluid card-img">
 																	<a href="p_craf_fun.html">
 																		<img src="images/work_16:9/my_craf.png" alt=""
 																			class="img-fluid card-img">
@@ -289,6 +262,32 @@
 																	<ul class="filters filters-tag text-center">
 																		<li data-filter=".Rhino">RHINO</a>
 																		</li>
+																	</ul>
+																</div>
+															</div>
+														</div>
+
+														<div class="col-lg-4 item C-T">
+															<div class="gallery-item">
+																<div class="project-head" class="img-fluid card-img">
+																	<a href="p_res_bio.html">
+																		<img src="images/work_16:9/my_sen.png" alt=""
+																			class="img-fluid card-img">
+																		<div class="project-hover">
+																			<h3>
+																				Understanding fungal languages through
+																				protein expressions
+																			</h3>
+																		</div>
+																</div>
+
+																<div class="project-body text-center">
+																	<h3 class="title">Responsive Biosensing</h3>
+
+																	<ul class="filters filters-tag text-center">
+																		<li data-filter=".c#">C#</a></li>
+																		<li data-filter=".arduino"><a
+																				href="#!">ARDUINO</a></li>
 																	</ul>
 																</div>
 															</div>
@@ -329,7 +328,7 @@
 																			class="img-fluid card-img">
 																		<div class="project-hover">
 																			<h3>
-																				Generating energy from waste via microbial fuel cells
+																				Generating energy from waste with microbial fuel cells
 																			</h3>
 																		</div>
 																</div>
@@ -376,12 +375,11 @@
 														<div class="col-lg-4 item D-F">
 															<div class="gallery-item">
 																<div class="project-head" class="img-fluid card-img">
-																	<a href="">
 																		<img src="images/work_16:9/tri.png" alt=""
 																			class="img-fluid card-img">
 																		<div class="project-hover">
 																			<h3>
-
+																				"Work In Progress"
 																			</h3>
 																		</div>
 																</div>
@@ -454,12 +452,11 @@
 														<div class="col-lg-4 item ARCH D-R">
 															<div class="gallery-item">
 																<div class="project-head" class="img-fluid card-img">
-																	<a href="">
 																		<img src="images/work_16:9/lml.png" alt=""
 																			class="img-fluid card-img">
 																		<div class="project-hover">
 																			<h3>
-
+																				"Work In Progress"
 																			</h3>
 																		</div>
 																</div>
@@ -526,6 +523,38 @@
 			</div>
 		</div>
 	</footer>
+	
+	<script>
+		document.addEventListener('DOMContentLoaded', function() {
+			var gototopButton = document.querySelector('.gototop');
+		
+			// Scroll to top function
+			function scrollToTop() {
+				if (window.scrollY !== 0) {
+					window.scroll({ top: 0, behavior: 'smooth' });
+				}
+			}
+		
+			// Show/hide the "go to top" button
+			function handleScroll() {
+				if (window.scrollY > 200) {
+					gototopButton.classList.add('active');
+				} else {
+					gototopButton.classList.remove('active');
+				}
+			}
+		
+			// Add a click event listener to the "go to top" button
+			gototopButton.addEventListener('click', function(e) {
+				e.preventDefault();
+				scrollToTop();
+			});
+		
+			// Add a scroll event listener to show/hide the button
+			window.addEventListener('scroll', handleScroll);
+		});
+		</script>
+		
 
 	<div class="gototop js-top">
 		<a href="#" class="js-gotop"><i class="icon-arrow-up2"></i></a>
